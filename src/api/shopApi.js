@@ -1,3 +1,5 @@
+const API_URL = "https://link-shop.onrender.com/shops";
+
 /* 목록 조회 */
 export async function getShops(search, sort, page) {
 
@@ -15,7 +17,7 @@ export async function getShops(search, sort, page) {
     params.append("_order", "desc");
   }
 
-  const response = await fetch(`http://localhost:3002/shops?${params}`);
+  const response = await fetch(`${API_URL}?${params}`);
 
   if (!response.ok) {
     throw new Error("목록 조회 실패");
@@ -27,7 +29,7 @@ export async function getShops(search, sort, page) {
 /* 상세 조회 */
 export async function getShopDetail(id) {
 
-  const response = await fetch(`http://localhost:3002/shops/${id}`);
+  const response = await fetch(`${API_URL}${id}`);
 
   if (!response.ok) {
     throw new Error("상세 조회 실패");
@@ -40,7 +42,7 @@ export async function getShopDetail(id) {
 /* 좋아요 */
 export async function updateShopLike(id, likes, liked) {
 
-  const response = await fetch(`http://localhost:3002/shops/${id}`, {
+  const response = await fetch(`${API_URL}${id}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json"
@@ -80,7 +82,7 @@ export async function createShop(data) {
 /* 쇼핑몰 삭제 */
 export async function deleteShop(id) {
 
-  const response = await fetch(`http://localhost:3002/shops/${id}`, {
+  const response = await fetch(`${API_URL}${id}`, {
     method: "DELETE"
   });
 
