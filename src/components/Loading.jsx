@@ -1,19 +1,12 @@
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { ClipLoader } from "react-spinners";
 import styles from "./Loading.module.css";
 
-export default function Loading({
-  text = "데이터를 불러오는 중입니다.",
-  className = ""
-}) {
+export default function Loading({ text = "데이터를 불러오는 중입니다." }) {
 
   return (
-    <div className={`${styles.loadingBox} ${className}`}>
-      <AiOutlineLoading3Quarters
-        className={styles.loadingIcon}
-        size={40}
-      />
-
-      {text && <p>{text}</p>}
+    <div className={styles.loadingBox}>
+      <ClipLoader color="#3E45EC" size={30} />
+      <p>{text}</p>
     </div>
   );
 
