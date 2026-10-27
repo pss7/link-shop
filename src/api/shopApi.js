@@ -29,7 +29,7 @@ export async function getShops(search, sort, page) {
 /* 상세 조회 */
 export async function getShopDetail(id) {
 
-  const response = await fetch(`${API_URL}${id}`);
+  const response = await fetch(`${API_URL}/${id}`);
 
   if (!response.ok) {
     throw new Error("상세 조회 실패");
@@ -42,7 +42,7 @@ export async function getShopDetail(id) {
 /* 좋아요 */
 export async function updateShopLike(id, likes, liked) {
 
-  const response = await fetch(`${API_URL}${id}`, {
+  const response = await fetch(`${API_URL}/${id}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json"
@@ -63,7 +63,7 @@ export async function updateShopLike(id, likes, liked) {
 /* 쇼핑몰 등록 */
 export async function createShop(data) {
 
-  const response = await fetch("http://localhost:3002/shops", {
+  const response = await fetch(`${API_URL}`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -120,7 +120,7 @@ export async function uploadImage(file) {
 /* 쇼핑몰 수정 */
 export async function updateShop(id, data) {
 
-  const response = await fetch(`http://localhost:3001/shops/${id}`, {
+  const response = await fetch(`${API_URL}/${id}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json"
