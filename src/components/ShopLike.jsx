@@ -5,7 +5,7 @@ export default function ShopLike({ className, shop, onUpdate }) {
 
   /* 좋아요 */
   async function handleLike() {
-    
+
     try {
       let response;
 
@@ -33,9 +33,9 @@ export default function ShopLike({ className, shop, onUpdate }) {
       >
         {
           shop.liked ? (
-            <img src="../assets/images/sub/like_icon02.svg" alt="" />
+            <img src={`${import.meta.env.BASE_URL}assets/images/sub/like_icon02.svg`} alt="" />
           ) : (
-            <img src="../assets/images/sub/like_icon.svg" alt="" />
+            <img src={`${import.meta.env.BASE_URL}assets/images/sub/like_icon.svg`} alt="" />
           )
         }
       </button>
