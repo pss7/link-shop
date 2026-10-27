@@ -1,7 +1,7 @@
 /* 상세 페이지 */
 .shopDetailBox {
   padding-top: 95px;
-  background: url(../assets/images/sub/bg.png)no-repeat center top;
+  background: url(/assets/images/sub/bg.png)no-repeat center top;
 }
 
 /* 상세 상단 영역 */
@@ -63,11 +63,11 @@
 }
 
 .shopDetailActionBox .shareBtn {
-  background: url(../assets/images/sub/share_icon.svg)no-repeat center;
+  background: url(/assets/images/sub/share_icon.svg)no-repeat center;
 }
 
 .shopDetailActionBox .settingBtn {
-  background: url(../assets/images/sub/setting_icon.svg)no-repeat center;
+  background: url(/assets/images/sub/setting_icon.svg)no-repeat center;
 }
 
 /* 설정 메뉴 */
