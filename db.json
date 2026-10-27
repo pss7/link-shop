@@ -4,7 +4,7 @@
       "id": "3",
       "name": "COCO낸네",
       "account": "@sleep_sound",
-      "profileImage": "/assets/images/sub/profile02.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile02.png",
       "likes": 38,
       "liked": false,
       "productCount": 3,
@@ -13,19 +13,19 @@
           "productId": "1",
           "productName": "소프트 화이트 베개",
           "productPrice": 39000,
-          "productImage": "/assets/images/sub/product06.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product06.png"
         },
         {
           "productId": "2",
           "productName": "코튼 스트라이프 침구 세트",
           "productPrice": 49000,
-          "productImage": "/assets/images/sub/product07.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product07.png"
         },
         {
           "productId": "3",
           "productName": "프리미엄 차렵이불 세트",
           "productPrice": 59000,
-          "productImage": "/assets/images/sub/product08.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product08.png"
         }
       ]
     },
@@ -33,7 +33,7 @@
       "id": "4",
       "name": "너구리 직구상점",
       "account": "@pumpkinraccoon",
-      "profileImage": "/assets/images/sub/profile01.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile01.png",
       "likes": 66,
       "liked": true,
       "productCount": 3,
@@ -42,19 +42,19 @@
           "productId": "1",
           "productName": "아디다스 가젤 HP5379",
           "productPrice": 134000,
-          "productImage": "/assets/images/sub/product01.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product01.png"
         },
         {
           "productId": "2",
           "productName": "아디다스 가젤 HP5379",
           "productPrice": 104000,
-          "productImage": "/assets/images/sub/product02.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product02.png"
         },
         {
           "productId": "3",
           "productName": "나이키 집업",
           "productPrice": 154000,
-          "productImage": "/assets/images/sub/product03.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product03.png"
         }
       ]
     },
@@ -62,7 +62,7 @@
       "id": "5",
       "name": "구파발 보따리",
       "account": "@hibottari",
-      "profileImage": "/assets/images/sub/profile02.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile02.png",
       "likes": 39,
       "liked": true,
       "productCount": 2,
@@ -71,13 +71,13 @@
           "productId": "1",
           "productName": "골드 웨이브 링 세트",
           "productPrice": 89000,
-          "productImage": "/assets/images/sub/product04.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product04.png"
         },
         {
           "productId": "2",
           "productName": "골드 레이어드 반지",
           "productPrice": 99000,
-          "productImage": "/assets/images/sub/product05.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product05.png"
         }
       ]
     },
@@ -85,7 +85,7 @@
       "id": "6",
       "name": "COCO낸네",
       "account": "@sleep_sound",
-      "profileImage": "/assets/images/sub/profile02.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile02.png",
       "likes": 39,
       "liked": true,
       "productCount": 3,
@@ -94,19 +94,19 @@
           "productId": "1",
           "productName": "소프트 화이트 베개",
           "productPrice": 39000,
-          "productImage": "/assets/images/sub/product06.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product06.png"
         },
         {
           "productId": "2",
           "productName": "코튼 스트라이프 침구 세트",
           "productPrice": 49000,
-          "productImage": "/assets/images/sub/product07.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product07.png"
         },
         {
           "productId": "3",
           "productName": "프리미엄 차렵이불 세트",
           "productPrice": 59000,
-          "productImage": "/assets/images/sub/product08.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product08.png"
         }
       ]
     },
@@ -114,7 +114,7 @@
       "id": "7",
       "name": "너구리 직구상점",
       "account": "@pumpkinraccoon",
-      "profileImage": "/assets/images/sub/profile01.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile01.png",
       "likes": 65,
       "liked": false,
       "productCount": 6,
@@ -123,37 +123,37 @@
           "productId": "1",
           "productName": "아디다스 가젤 HP5379",
           "productPrice": 134000,
-          "productImage": "/assets/images/sub/product01.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product01.png"
         },
         {
           "productId": "2",
           "productName": "아디다스 가젤 HP5379",
           "productPrice": 104000,
-          "productImage": "/assets/images/sub/product02.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product02.png"
         },
         {
           "productId": "3",
           "productName": "나이키 집업",
           "productPrice": 154000,
-          "productImage": "/assets/images/sub/product03.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product03.png"
         },
         {
           "productId": "4",
           "productName": "골드 레이어드 반지",
           "productPrice": 124000,
-          "productImage": "/assets/images/sub/product04.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product04.png"
         },
         {
           "productId": "5",
           "productName": "로즈골드 메탈 손목시계",
           "productPrice": 124000,
-          "productImage": "/assets/images/sub/product05.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product05.png"
         },
         {
           "productId": "6",
           "productName": "화이트 코튼 타월",
           "productPrice": 124000,
-          "productImage": "/assets/images/sub/product06.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product06.png"
         }
       ]
     },
@@ -161,7 +161,7 @@
       "id": "8",
       "name": "구파발 보따리",
       "account": "@hibottari",
-      "profileImage": "/assets/images/sub/profile02.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile02.png",
       "likes": 39,
       "liked": true,
       "productCount": 2,
@@ -170,13 +170,13 @@
           "productId": "1",
           "productName": "골드 레이어드 반지",
           "productPrice": 89000,
-          "productImage": "/assets/images/sub/product04.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product04.png"
         },
         {
           "productId": "2",
           "productName": "로즈골드 메탈 손목시계",
           "productPrice": 99000,
-          "productImage": "/assets/images/sub/product05.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product05.png"
         }
       ]
     },
@@ -184,7 +184,7 @@
       "id": "9",
       "name": "COCO낸네",
       "account": "@sleep_sound",
-      "profileImage": "/assets/images/sub/profile02.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile02.png",
       "likes": 39,
       "liked": true,
       "productCount": 3,
@@ -193,19 +193,19 @@
           "productId": "1",
           "productName": "소프트 화이트 베개",
           "productPrice": 39000,
-          "productImage": "/assets/images/sub/product06.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product06.png"
         },
         {
           "productId": "2",
           "productName": "코튼 스트라이프 침구 세트",
           "productPrice": 49000,
-          "productImage": "/assets/images/sub/product07.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product07.png"
         },
         {
           "productId": "3",
           "productName": "프리미엄 차렵이불 세트",
           "productPrice": 59000,
-          "productImage": "/assets/images/sub/product08.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product08.png"
         }
       ]
     },
@@ -213,7 +213,7 @@
       "id": "10",
       "name": "너구리 직구상점",
       "account": "@pumpkinraccoon",
-      "profileImage": "/assets/images/sub/profile01.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile01.png",
       "likes": 66,
       "liked": true,
       "productCount": 3,
@@ -222,19 +222,19 @@
           "productId": "1",
           "productName": "아디다스 가젤 HP5379",
           "productPrice": 134000,
-          "productImage": "/assets/images/sub/product01.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product01.png"
         },
         {
           "productId": "2",
           "productName": "아디다스 가젤 HP5379",
           "productPrice": 104000,
-          "productImage": "/assets/images/sub/product02.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product02.png"
         },
         {
           "productId": "3",
           "productName": "나이키 집업",
           "productPrice": 154000,
-          "productImage": "/assets/images/sub/product03.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product03.png"
         }
       ]
     },
@@ -242,7 +242,7 @@
       "id": "11",
       "name": "구파발 보따리",
       "account": "@hibottari",
-      "profileImage": "/assets/images/sub/profile02.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile02.png",
       "likes": 39,
       "liked": true,
       "productCount": 2,
@@ -251,13 +251,13 @@
           "productId": "1",
           "productName": "골드 웨이브 링 세트",
           "productPrice": 89000,
-          "productImage": "/assets/images/sub/product04.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product04.png"
         },
         {
           "productId": "2",
           "productName": "골드 레이어드 반지",
           "productPrice": 99000,
-          "productImage": "/assets/images/sub/product05.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product05.png"
         }
       ]
     },
@@ -265,7 +265,7 @@
       "id": "12",
       "name": "COCO낸네",
       "account": "@sleep_sound",
-      "profileImage": "/assets/images/sub/profile02.png",
+      "profileImage": "https://pss7.github.io/link-shop/assets/images/sub/profile02.png",
       "likes": 39,
       "liked": true,
       "productCount": 3,
@@ -274,19 +274,19 @@
           "productId": "1",
           "productName": "소프트 화이트 베개",
           "productPrice": 39000,
-          "productImage": "/assets/images/sub/product06.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product06.png"
         },
         {
           "productId": "2",
           "productName": "코튼 스트라이프 침구 세트",
           "productPrice": 49000,
-          "productImage": "/assets/images/sub/product07.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product07.png"
         },
         {
           "productId": "3",
           "productName": "프리미엄 차렵이불 세트",
           "productPrice": 59000,
-          "productImage": "/assets/images/sub/product08.png"
+          "productImage": "https://pss7.github.io/link-shop/assets/images/sub/product08.png"
         }
       ]
     }
