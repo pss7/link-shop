@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { HashRouter, Route } from "react-router-dom"
 import ComponentTest from "./components/pages/ComponentTest"
 import ShopListPage from "./components/pages/ShopListPage"
 import ShopDetailPage from "./components/pages/ShopDetailPage"
@@ -12,14 +12,14 @@ function App() {
 
   return (
     <>
-      <Routes>
+      <HashRouter>
         <Route path="/" element={<ShopListPage />}></Route>
         <Route path="/shop-list" element={<ShopListPage />}></Route>
         <Route path="/shop-detail/:id" element={<ShopDetailPage />}></Route>
         <Route path="/shop-create" element={<ShopCreatePage />}></Route>
         <Route path="/shop-update/:id" element={<ShopUpdatePage />}></Route>
         <Route path="/component-test" element={<ComponentTest />}></Route>
-      </Routes>
+      </HashRouter>
 
       <ToastContainer
         position="top-center"
