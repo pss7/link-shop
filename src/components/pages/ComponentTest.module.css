@@ -1,0 +1,15 @@
+.title {
+  margin-bottom: 50px;
+}
+
+.box{
+  padding: 50px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.border{
+  display: block;
+  margin: 50px 0;
+  height: 1px;
+  background-color:#ccc;
+}

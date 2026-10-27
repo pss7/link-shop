@@ -1,0 +1,43 @@
+.searchBox {
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0 20px 0 65px;
+  height: 55px;
+  border: 1px solid #DDDCDF;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.searchInput::placeholder {
+  color: #888790;
+}
+
+.searchButton {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 65px;
+  height: 100%;
+  transform: translateY(-50%);
+}
+
+.searchButton::after {
+  content: '';
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-36%, -50%);
+  background: url(/assets/images/common/search_icon.svg)no-repeat center;
+}
+
+@media (max-width: 768px) {
+
+  .searchInput {
+    font-size: 16px;
+  }
+
+}

@@ -1,0 +1,35 @@
+.shopLikeBox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.shopLikeBox .shopLikeBtn {
+  flex-shrink: 0;
+}
+
+.shopLikeBox .shopLikeBtn img {
+  display: block;
+}
+
+.shopLikeBox .shopLikeNumber {
+  font-weight: 500;
+  color: #14151A;
+}
+
+@media (max-width: 480px) {
+
+  .shopLikeBox {
+    top: 20px;
+    right: 20px;
+  }
+
+  .shopLikeBox .shopLikeBtn img {
+    width: 20px;
+  }
+
+  .shopLikeBox .shopLikeNumber {
+    font-size: 14px;
+  }
+
+}

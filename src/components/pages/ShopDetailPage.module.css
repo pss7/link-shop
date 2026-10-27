@@ -1,0 +1,196 @@
+/* 상세 페이지 */
+.shopDetailBox {
+  padding-top: 95px;
+  background: url(../assets/images/sub/bg.png)no-repeat center top;
+}
+
+/* 상세 상단 영역 */
+.shopDetailTopBox {
+  position: relative;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px;
+  min-height: 266px;
+  background-color: #FAFAFB;
+  border-radius: 24px;
+}
+
+/* 상세 상단 정보 */
+.shopDetailTopInfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopDetailTopInfoBox img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.shopDetailTopInfoBox h1 {
+  margin-bottom: 8px;
+  font-size: 32px;
+  color: #14151A;
+  letter-spacing: -1px;
+}
+
+.shopDetailTopInfoBox span {
+  display: block;
+  color: #888790;
+}
+
+/* 좋아요 */
+.shopLikeBox {
+  position: absolute;
+  top: 24px;
+  left: 20px;
+}
+
+/* 공유 및 설정 버튼 */
+.shopDetailActionBox {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+  display: flex;
+  gap: 10px 16px;
+}
+
+.shopDetailActionBox button {
+  width: 23px;
+  height: 23px;
+}
+
+.shopDetailActionBox .shareBtn {
+  background: url(../assets/images/sub/share_icon.svg)no-repeat center;
+}
+
+.shopDetailActionBox .settingBtn {
+  background: url(../assets/images/sub/setting_icon.svg)no-repeat center;
+}
+
+/* 설정 메뉴 */
+.shopDetailActionBox .settingMenu {
+  opacity: 0;
+  visibility: hidden;
+  width: 160px;
+  position: absolute;
+  top: 32px;
+  right: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: all .3s;
+}
+
+.shopDetailActionBox .settingMenu button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 58px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #14151A;
+  border-bottom: 1px solid #ddd;
+}
+
+.shopDetailActionBox .settingMenu button:last-child {
+  border-bottom: 0;
+}
+
+.shopDetailActionBox.active .settingMenu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 대표상품 영역 */
+.shopDetailProductTitle {
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #14151A;
+  font-size: 16px;
+}
+
+.shopDetailProductList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 24px;
+}
+
+.shopDetailProductList li {
+  display: flex;
+  align-items: center;
+  gap: 10px 20px;
+  padding: 16px 20px;
+  background-color: #FAFAFB;
+  border-radius: 24px;
+}
+
+.shopDetailProductList li h3 {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #14151A;
+}
+
+.shopDetailProductList li img {
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.shopDetailProductList li .shopDetailProductPrice {
+  font-weight: 700;
+  color: #14151A;
+  font-size: 20px;
+}
+
+/* 목록으로 돌아가기 */
+.backLink {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #888790;
+}
+
+.backLink::before {
+  content: '';
+  width: 15px;
+  height: 14px;
+  background: url(../assets/images/sub/arrow_icon01.svg)no-repeat center;
+}
+
+@media (max-width: 1199px) {
+
+  .shopDetailTopInfoBox h1 {
+    font-size: 26px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .shopDetailProductList {
+    grid-template-columns: 1fr;
+  }
+
+  .shopDetailProductList li h3 {
+    font-size: 15px;
+  }
+
+  .shopDetailProductList li .shopDetailProductPrice {
+    font-size: 16px;
+  }
+
+  .shopDetailTopInfoBox h1 {
+    font-size: 22px;
+  }
+
+  .shopDetailActionBox .settingMenu button {
+    font-size: 16px;
+  }
+
+}

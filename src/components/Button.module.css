@@ -1,0 +1,54 @@
+/* 버튼 공통 */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+/* Primary 버튼 */
+.primary {
+  background-color: #3E45EC;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #292FD0;
+}
+
+/* Secondary 버튼 */
+.secondary {
+  background-color: #A2A2AC;
+  color: #fff;
+}
+
+.secondary:hover {
+  background-color: #858590;
+}
+
+/* 크기 */
+.small {
+  padding: 7px 21px;
+  font-size: 15px;
+}
+
+.medium {
+  padding: 12px 49px;
+  font-size: 17px;
+}
+
+.large {
+  padding: 20px 80px;
+  font-size: 18px;
+}
+
+/* 너비 */
+.auto {
+  width: auto;
+}
+
+.full {
+  width: 100%;
+}

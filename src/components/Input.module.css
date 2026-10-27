@@ -1,0 +1,86 @@
+/* 공통 */
+.inputBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.inputInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.input {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 17px;
+  border: 0;
+  background-color: transparent;
+}
+
+.placeholder {
+  padding: 5px 0;
+  color: #888790;
+  font-size: 17px;
+}
+
+.input::placeholder {
+  color: #888790;
+}
+
+/* 파일 첨부 */
+.fileButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 9px;
+  border: 1px solid #3E45EC;
+  border-radius: 8px;
+  color: #3E45EC;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.fileButton:hover {
+  background-color: #F0F1FF;
+}
+
+
+/* 라벨 */
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: #14151A;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* 오류 */
+.input.error {
+  border-color: #e53935;
+}
+
+.errorMessage {
+  margin-top: 8px;
+  color: #e53935;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+
+  .inputBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .input,
+  .placeholder {
+    font-size: 14px;
+  }
+
+}

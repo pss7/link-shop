@@ -1,0 +1,17 @@
+.headerBox {
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoBox h1 a,
+.logoBox h1 a img {
+  display: block;
+}
+
+@media (max-width: 480px){
+
+  .logoBox h1 a img{width: 130px;}
+
+}

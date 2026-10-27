@@ -1,0 +1,46 @@
+.formTitleBox {
+  margin: 25px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.formTitleBox .btn {
+  display: block;
+  font-weight: 700;
+  color: #3E45EC;
+}
+
+.shopFormBox {
+  width: 100%;
+}
+
+.formBox {
+  margin-bottom: 16px;
+  padding: 22px 28px;
+  border-radius: 25px;
+  background-color: #FAFAFB;
+}
+
+.formBox:nth-last-of-type(1) {
+  margin-bottom: 72px;
+}
+
+.inputBox {
+  margin-bottom: 30px;
+}
+
+.inputBox:last-child {
+  margin-bottom: 0;
+}
+
+.formTitle {
+  font-weight: 600;
+  color: #14151A;
+  font-size: 16px;
+}
+
+.img {
+  display: block;
+  margin-bottom: 20px;
+}
