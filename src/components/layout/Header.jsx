@@ -14,7 +14,7 @@ export default function Header() {
           <div className={styles.logoBox}>
             <h1>
               <Link to="/shop-list">
-                <img src="/assets/images/common/logo.svg" alt="LINK SHOP" />
+                <img src={`${import.meta.env.BASE_URL}assets/images/common/logo.svg`} alt="LINK SHOP" />
               </Link>
             </h1>
           </div>

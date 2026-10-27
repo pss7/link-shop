@@ -301,7 +301,7 @@ export default function ShopListPage() {
               ) : (
                 <div className={styles.noSearchBox}>
                   <img
-                    src="/assets/images/common/no_search.png"
+                    src={`${import.meta.env.BASE_URL}assets/images/common/no_search.png`}
                     alt=""
                   />
 
