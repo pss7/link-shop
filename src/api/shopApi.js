@@ -82,7 +82,7 @@ export async function createShop(data) {
 /* 쇼핑몰 삭제 */
 export async function deleteShop(id) {
 
-  const response = await fetch(`${API_URL}${id}`, {
+  const response = await fetch(`${API_URL}/${id}`, {
     method: "DELETE"
   });
 
