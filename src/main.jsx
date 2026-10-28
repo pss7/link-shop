@@ -6,10 +6,13 @@ import App from './App.jsx'
 import './styles/fonts.css';
 import './styles/reset.css';
 import './styles/style.css';
+import { HashRouter } from 'react-router-dom';
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <HashRouter>
       <App />
+    </HashRouter>
   </StrictMode>,
 )
